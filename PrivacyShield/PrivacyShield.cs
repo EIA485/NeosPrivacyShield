@@ -15,7 +15,7 @@ namespace PrivacyShield
 
         public override void OnEngineInit()
         {
-            Harmony harmony = new Harmony("xyz.ljoonal.neos.privacyshield");
+            Harmony harmony = new Harmony("net.eia485.privacyshield");
             harmony.PatchAll();
         }
 
